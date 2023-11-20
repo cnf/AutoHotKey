@@ -1,0 +1,18 @@
+SECTION: Monitors=1,MonitorPrimary=1; Desktop size:0,0,1920,1200
+Title="AutoHotKey",x=86,y=223,width=1180,height=634
+Title="C:\Users\cnf\Documents\AutoHotKey\DockWin.ahk - Notepad++",x=692,y=0,width=1037,height=1121
+Title="Chocolatey Gallery - Mozilla Firefox",x=426,y=0,width=1472,height=1170
+Title="#universal",x=12,y=436,width=1280,height=720
+Title="Mail",x=-8,y=-8,width=1936,height=1186
+Title="Store",x=391,y=169,width=1036,height=743
+Title="Photos",x=-7,y=3,width=1036,height=743
+Title="OneNote",x=,y=,width=,height=
+Title="OneNote ?- OneNote",x=,y=,width=,height=
+Title="Excel Mobile",x=,y=,width=,height=
+Title="Excel Mobile",x=-8,y=-8,width=1936,height=1186
+Title="Movies & TV",x=,y=,width=,height=
+Title="Movies & TV",x=-7,y=3,width=1036,height=743
+Title="Mail",x=0,y=32,width=1920,height=1138
+Title="Store",x=399,y=201,width=1020,height=703
+Title="Photos",x=1,y=35,width=1020,height=703
+

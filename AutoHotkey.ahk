@@ -1,26 +1,20 @@
 ;;
 
 ; Include other scripts
-#Include %A_ScriptDir%\Games
+;#Include %A_ScriptDir%\WindowManager.ahk
+;#Include %A_ScriptDir%\Games\GW2.ahk
+;#Include %A_ScriptDir%\VolumeOSD.ahk
 
-#m::
-Run %A_ScriptDir%\Games
-Return
-
-#z::
-MsgBox, %A_AHKVersion%
-Run www.autohotkey.com
-Return
+; Capslock is always off
+SetCapsLockState, AlwaysOff
+CapsLock::Control
 
 
-; Don't let Left windows key interupt your games...
-#If A_PriorKey = "LWin"
-~LWin Up::
-WinGetActiveStats, ActivetWindowTitle, WindowWidth, WindowHeight, X, Y
-;MsgBox, %WindowHeight%, %A_ScreenHeight%
-If (WindowHeight = A_ScreenHeight and WindowWidth = A_ScreenWidth)
-{
-	Exit
-} else {
-	Send {LWin}
-}
+
+; ; ......
+; ^x::
+; WinGetClass, class, A
+; MsgBox, The active window's class is "%class%".
+; WinGetTitle, Title, A
+; MsgBox, The active window is "%Title%".
+; Return
